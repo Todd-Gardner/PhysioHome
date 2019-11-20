@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Physio Home</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="physio.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Physiotherapy, Physio, home physiotherapy, home physio, physio home, physiotherapy at home, Brantford physio, Cambridge physiotherapy, massage, sore back, massage therapy, masage, Brant">
+		<link rel="icon" type="image/x-icon" href="images/favicon.png">
+	</head>	
+	<body>
+		<div id="wrapper">
+		<header>
+			<h1>Home Physiotherapy</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="login.html">Login</a></li>				
+			</ul>	
+		</nav>
+		<main>
+			<h3>Contact Us</h3><br>	
+			<p>Please feel free to contact us if you have any questions, comments, or would like to schedule a home visit.<br><br>
+			<a href="http://www.fabecook.com"><img src="images/facebook.png"> follow us on facebook</a><br>
+			<a href="http://www.instagram.com"><img src="images/instagram.png">Follow us on Instagram.</a><br>
+			<a href="http://www.linkedin.com"><img src="images/linkedIn.png">Follow us on linkedIn.</a><br><br>
+			<div class="container">
+				<fieldset>
+				<legend>Contact Us</legend>
+				<b>Required information is marked with an asterisk(*).</b></p>
+				<form name="myForm" method="post" id="myForm" onsubmit="return validate()">
+					<label>* Name:</label>
+					<input  name="Name" id="name" tabindex="1" required><br><br>
+					<label>* Email:</label>
+					<input  name="Email" id="email" tabindex="2" required><br><br>
+					<label>*Question or Comment:</label><br>
+					<textarea rows="4" cols="50" name="comment" id="details" required>
+					</textarea><br><br>
+					<input type="submit" value="Send" tabindex="3">
+				</form>
+				</fieldset>
+			</div>		
+			<div>
+				<a href="tel:519-512-1212">Call</a> or <a href="mailto:Todd.Gardner@physiohome.com">Email</a> for more information.<br>
+				<a href="tel:519-512-1212">519-512-1212</a><br>
+				<a href="mailto:Todd.Gardner@physiohome.com">Todd.Gardner@physiohome.com</a><br><br>
+			</div>							
+		</main>
+		<footer>
+			Copyright &copy; 2018 PhysioHome<br>
+			<a href="mailto:Todd.Gardner@physiohome.com">Todd.Gardner@physiohome.com</a>
+		</footer>
+		</div>
+		<script type="text/javascript">
+		function trimfield(str) 
+		{ 
+			return str.replace(/^\s+|\s+$/g,''); 
+		}
+		function validate()
+		{
+			var obj1 =document.getElementById('name'); 
+			var obj2 = document.getElementById('email');
+			var obj3 =document.getElementById('details'); 
+				if(trimfield(obj1.value) == '') 
+				{      
+					alert("Please Provide Name!");
+					obj1.focus();
+					return false;       
+				}
+				else if(trimfield(obj2.value) == '')
+				{      
+					alert("Please Provide Email!");
+					obj2.focus();
+					return false;       
+				}
+				else if(trimfield(obj3.value) == '')
+				{      
+					alert("Please Provide Details!");
+					obj3.focus();
+					return false;       
+				}
+				else
+				return true;
+		}
+		</script>
+	</body>	
+</html>		

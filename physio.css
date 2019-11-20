@@ -1,0 +1,391 @@
+header
+	{
+		background-color:#000066;
+		color:#f0f0f0;
+		font-family:Georgia,Times New Roman,serif;
+		text-align:center;
+		background-image:url(images/banner1_4.jpg);
+		background-repeat:no-repeat;
+		background-position:center;
+	}	
+h1
+	{
+		color:black;
+		line-height:650%;
+		margin-bottom:0;
+	}
+body
+	{
+		background-color:#8fa5ce;
+		background-image:linear-gradient(#ffffff,#8fa5ce);
+		background-repeat:no-repeat;				
+	}	
+#wrapper
+	{
+		width:90%;
+		margin-right:auto;
+		margin-left:auto;
+		margin-top:auto;
+		min-width:700px;
+		background-color:#f0f0f0;	
+		box-shadow:5px 5px 5px #828282;
+		overflow:hidden;
+	}	
+nav
+	{
+		background-color:#F0F0F0;
+		font-weight:bold;
+		float:left;
+		width:180px;
+	}
+nav ul
+	{
+		list-style-type:none;
+	}	
+nav a
+	{
+		text-decoration:none;
+	}	
+nav a:visited
+	{
+		color:#5280C5;
+	}
+nav a:hover
+	{
+		color:#3262A3;
+	}	
+nav a:link
+	{
+		color:#000066;
+	}
+nav a:active
+	{
+		color:red;
+	}				
+dt
+	{
+		font-weight:bold;
+		font-size:1.1em;
+		color:#5280c5;
+		font-family:Geogia,Times New Roman,serif;
+	}
+footer 
+	{
+		background-color:#AEC3E3;
+		font-size:0.70em;
+		font-style:italic;
+		text-align:center;
+		margin-left:180px;
+	}	
+main
+	{
+		padding-left:10px;
+		padding-right:10px;
+		margin-left:180px;
+		background-color:#ffffff;
+	}
+h2
+	{
+		font-weight:bold;
+		font-size:1.1em;
+		color:#5280c5;
+		font-family:Geogia,Times New Roman,serif;
+	}
+h3
+	{
+		font-weight:bold;
+		font-size:1.1em;
+		color:#5280c5;
+		font-family:Geogia,Times New Roman,serif;
+	}
+div.container
+	{
+		width:900px;
+		height:610px;
+		margin:35px auto;
+		font-family:Geogia,Times New Roman,serif;
+	}
+div.main
+	{	
+		width:300px;
+		padding:10px 50px 25px;
+		border:2px solid #5280c5; 
+		border-radius:10px;
+		font-family:Geogia,Times New Roman,serif;
+		float:left;
+		margin-top:50px;
+	}
+input[type=text],input[type=password]
+	{
+		width:100%;
+		height:40px;
+		padding:2px;
+		margin-bottom:25px;
+		margin-top:5px;
+		border:2px solid #5280c5; 
+		color:#4f4f4f;
+		font-size:16px;
+		border-radius:5px;
+	}
+@media only screen and(max-width:1024px)
+	{
+	header
+		{
+			background-color:#000066;
+			color:#f0f0f0;
+			font-family:Georgia,Times New Roman,serif;
+			text-align:center;
+			background-image:url(images/banner1_4.jpg);
+			background-repeat:no-repeat;
+			background-position:center;
+		}	
+	h1
+		{
+			color:black;
+			line-height:650%;
+			margin-bottom:0;
+		}
+	body
+		{
+			background-color:#8fa5ce;
+			background-image:linear-gradient(#ffffff,#8fa5ce);
+			background-repeat:no-repeat;				
+		}	
+	#wrapper
+		{
+			width:90%;
+			margin-right:auto;
+			margin-left:auto;
+			margin-top:auto;
+			min-width:700px;
+			background-color:#f0f0f0;	
+			box-shadow:5px 5px 5px #828282;
+		}	
+	nav
+		{
+			background-color:#F0F0F0;
+			font-weight:bold;
+			float:left;
+			width:180px;
+		}
+	nav ul
+		{
+			list-style-type:none;
+		}	
+	nav a
+		{
+			text-decoration:none;
+		}	
+	nav a:visited
+		{
+			color:#5280C5;
+		}
+	nav a:hover
+		{
+			color:#3262A3;
+		}	
+	nav a:link
+		{
+			color:#000066;
+		}
+	nav a:active
+		{
+			color:red;
+		}				
+	dt
+		{
+			font-weight:bold;
+			font-size:1.1em;
+			color:#5280c5;
+			font-family:Geogia,Times New Roman,serif;
+		}
+	footer 
+		{
+			background-color:#AEC3E3;
+			font-size:0.70em;
+			font-style:italic;
+			text-align:center;
+			margin-left:180px;
+		}	
+	main
+		{
+			padding-left:10px;
+			padding-right:10px;
+			margin-left:180px;
+			background-color:#ffffff;
+		}
+	h2
+		{
+			font-weight:bold;
+			font-size:1.1em;
+			color:#5280c5;
+			font-family:Geogia,Times New Roman,serif;
+		}
+	h3
+		{
+			font-weight:bold;
+			font-size:1.1em;
+			color:#5280c5;
+			font-family:Geogia,Times New Roman,serif;
+		}
+	div.container
+		{
+			width:900px;
+			height:610px;
+			margin:35px auto;
+			font-family:Geogia,Times New Roman,serif;
+		}
+	div.main
+		{	
+			width:300px;
+			padding:10px 50px 25px;
+			border:2px solid #5280c5; 
+			border-radius:10px;
+			font-family:Geogia,Times New Roman,serif;
+			float:left;
+			margin-top:50px;
+		}
+	input[type=text],input[type=password]
+		{
+			width:100%;
+			height:40px;
+			padding:2px;
+			margin-bottom:25px;
+			margin-top:5px;
+			border:2px solid #5280c5; 
+			color:#4f4f4f;
+			font-size:16px;
+			border-radius:5px;
+		}		
+	}	
+@media only screen and(max-width:768px)
+	{
+	header
+		{
+			background-color:#000066;
+			color:#f0f0f0;
+			font-family:Georgia,Times New Roman,serif;
+			text-align:center;
+			background-image:url(images/banner1_4.jpg);
+			background-repeat:no-repeat;
+			background-position:center;
+		}	
+	h1
+		{
+			color:black;
+			line-height:650%;
+			margin-bottom:0;
+		}
+	body
+		{
+			background-color:#8fa5ce;
+			background-image:linear-gradient(#ffffff,#8fa5ce);
+			background-repeat:no-repeat;				
+		}	
+	#wrapper
+		{
+			width:90%;
+			margin-right:auto;
+			margin-left:auto;
+			margin-top:auto;
+			min-width:700px;
+			background-color:#f0f0f0;	
+			box-shadow:5px 5px 5px #828282;
+		}	
+	nav
+		{
+			background-color:#F0F0F0;
+			font-weight:bold;
+			float:left;
+			width:180px;
+		}
+	nav ul
+		{
+			list-style-type:none;
+		}	
+	nav a
+		{
+			text-decoration:none;
+		}	
+	nav a:visited
+		{
+			color:#5280C5;
+		}
+	nav a:hover
+		{
+			color:#3262A3;
+		}	
+	nav a:link
+		{
+			color:#000066;
+		}
+	nav a:active
+		{
+			color:red;
+		}				
+	dt
+		{
+			font-weight:bold;
+			font-size:1.1em;
+			color:#5280c5;
+			font-family:Geogia,Times New Roman,serif;
+		}
+	footer 
+		{
+			background-color:#AEC3E3;
+			font-size:0.70em;
+			font-style:italic;
+			text-align:center;
+			margin-left:180px;
+		}	
+	main
+		{
+			padding-left:10px;
+			padding-right:10px;
+			margin-left:180px;
+			background-color:#ffffff;
+		}
+	h2
+		{
+			font-weight:bold;
+			font-size:1.1em;
+			color:#5280c5;
+			font-family:Geogia,Times New Roman,serif;
+		}
+	h3
+		{
+			font-weight:bold;
+			font-size:1.1em;
+			color:#5280c5;
+			font-family:Geogia,Times New Roman,serif;
+		}
+	div.container
+		{
+			width:900px;
+			height:610px;
+			margin:35px auto;
+			font-family:Geogia,Times New Roman,serif;
+		}
+	div.main
+		{	
+			width:300px;
+			padding:10px 50px 25px;
+			border:2px solid #5280c5; 
+			border-radius:10px;
+			font-family:Geogia,Times New Roman,serif;
+			float:left;
+			margin-top:50px;
+		}
+	input[type=text],input[type=password]
+		{
+			width:100%;
+			height:40px;
+			padding:2px;
+			margin-bottom:25px;
+			margin-top:5px;
+			border:2px solid #5280c5; 
+			color:#4f4f4f;
+			font-size:16px;
+			border-radius:5px;
+		}
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Physio Home</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="physio.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Physiotherapy, Physio, home physiotherapy, home physio, physio home, physiotherapy at home, Brantford physio, Cambridge physiotherapy, massage, sore back, massage therapy, masage, Brant">
+		<link rel="icon" type="image/x-icon" href="images/favicon.png">
+	</head>	
+	<body>
+		<div id="wrapper">
+		<header>
+		<h1>Home Physiotherapy</</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="login.html">Login</a></li>				
+			</ul>	
+		</nav>
+		<main>
+			<h2>Login Page</h2>
+			<div class="container">
+				<div class="main">
+					<h3>Login Form</h3>
+					<fieldset>
+					<legend>Login</legend>
+					<form id="form_id" method="post" name="myForm">
+						<strong>User Name:</strong><br>
+						<input type="text" name="userName" id="userName"/><br>
+						<strong>Password:</strong><br>
+						<input type="password" name="password" id="password"/><br>
+						<input type="button" value="Login" id="submit" onclick="validate()"/>
+					</form><br>
+					<span><b><h4>User Name: "username"<br>Password: "password"</b></h4></span>
+					</fieldset>
+				</div> 
+			</div>
+			<div>
+				<a href="tel:519-512-1212">Call</a> or <a href="mailto:Todd.Gardner@physiohome.com">Email</a> for more information.<br>
+				<a href="tel:519-512-1212">519-512-1212</a><br>
+				<a href="mailto:Todd.Gardner@physiohome.com">Todd.Gardner@physiohome.com</a><br><br>
+			</div>					
+		</main>
+		<footer>
+			Copyright &copy; 2018 PhysioHome<br>
+			<a href="mailto:Todd.Gardner@physiohome.com">Todd.Gardner@physiohome.com</a>
+		</footer>
+		</div>
+		<script type="text/javascript">
+			function validate()
+			{
+				var userName = document.getElementById("userName").value;
+				var password = document.getElementById("password").value;
+					if (userName == "username" && password == "password")
+					{
+						alert ("Login successfull!");
+						window.location = "index.html"; //redirects to page
+						return false;
+					}
+					else
+					{		
+						alert("Incorrect username or password");
+					}
+			}
+		</script>
+	</body>	
+</html>		
